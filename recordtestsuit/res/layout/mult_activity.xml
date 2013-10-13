@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videocalling_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#242424"
+    android:orientation="vertical" >
+
+	<RelativeLayout
+        android:id="@+id/header_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true" >
+		<FrameLayout android:id="@+id/captureFrame" 
+		    android:layout_width="fill_parent"  
+		    android:layout_height="400dip" >
+		</FrameLayout>
+		<FrameLayout android:id="@+id/renderFrame" 
+		    android:layout_width="0dip"  
+		    android:layout_height="0dip" >
+		</FrameLayout>
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/captureFrame"
+		    android:layout_marginLeft="41dp"
+		    android:layout_marginTop="54dp"
+		    android:text="TextView" />
+
+	</RelativeLayout>
+    <TableLayout android:id="@+id/tableLayout1" 
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+		<TableRow
+	            android:layout_width="wrap_content"
+	            android:layout_weight="50"
+	            android:baselineAligned="true"
+	            android:gravity="center" >
+
+			<Button
+			    android:id="@+id/btnstart"
+			    android:layout_width="100dip"
+			    android:layout_height="wrap_content"
+			    android:text="初始化" />
+
+			<View
+	                 android:id="@+id/point_mid"
+	                 android:layout_width="40dip"
+	                 android:layout_height="fill_parent"
+	                 android:visibility="visible" />
+
+			<Button
+			    android:id="@+id/btnpause"
+			    android:layout_width="100dip"
+			    android:layout_height="wrap_content"
+			    android:text="开始录制" />
+
+			<Button android:text="停止" 
+			    android:id="@+id/btnstop" 
+			    android:layout_width="100dip" 
+			    android:layout_height="wrap_content"></Button>
+		</TableRow>
+	</TableLayout>
+
+</RelativeLayout>

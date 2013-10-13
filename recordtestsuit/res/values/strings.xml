@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, uphoneActivity!</string>
+    <string name="app_name">Phone+ Demo</string>
+    <string name="talking">连接中...</string>
+    <string name="cancel">挂断</string>
+    <string name="default_room">2001</string>
+    <string name="intro">2001:贵阳电信服务器(上下行speex 16k) \n2002:北京联通服务器(上下行speex 16k) \n其他:下行nellymoser 44k，上行speex 16k</string>
+    <string name="channel">请输入channelID</string>
+    <string name="defaultChaID">2222</string>
+    <string name="btn_speakeron">免提</string>
+    <string name="btn_speakeroff">关闭免提</string>
+    <string name="btnMute">禁音</string>
+    <string name="btnMuteCancel">取消禁音</string>
+    <string name="foreground_service_started">Phone+ Demo</string>
+    <string name="local">Phone+ Demo</string>
+    <string name="tvSetDelay">设置AEC延迟</string>
+    <string name="btnSetDelay">设置</string>
+    <string name="tvSetTail">设置AEC尾长</string>
+    <string name="cbJitter">是否置环</string>
+    <string name="setEQTip">设置均衡器</string>
+</resources>
